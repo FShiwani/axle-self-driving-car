@@ -12,5 +12,5 @@ The following section will be used to describe the equipment and outcomes of the
 ### Equipment used
 * Raspberry Pi 3
 * x2 L293D - Each L293D driver IC is capable of powering 2 motors. I do realise that there are significant losses associated with this IC and
-that there are other far better solutions available.
+that there are other far better solutions available such as the A4988.
 * 
