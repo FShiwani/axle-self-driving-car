@@ -6,6 +6,7 @@ described below.
 ## Feature List
 * Automatic Stop - The car automatically stops when a red object is detected by the camera. (Completed)
 * Collision Avoidance - The car automatically stops when it detects an obstacle obstructing it's path. (TBD)
+* Lane Following - The car can follow a specified track laid out by 2 same color wide markings on both sides. (TBD)
 
 ## Library Dependencies
 * opencv_python‑3.2.0 
