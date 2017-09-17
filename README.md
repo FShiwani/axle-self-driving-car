@@ -24,7 +24,5 @@ that there are other far better solutions available such as the A4988.
 * 4x Motors
 * Several jumper wires
 
-### Demonstration
-
 ## Contributions
 Feel free to submit a PR if you wish to add any improvements to the project. I intend on incorporating all useful, working suggestions and testing it every week or two.
