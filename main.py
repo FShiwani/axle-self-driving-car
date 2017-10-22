@@ -13,6 +13,10 @@ Motor2A = 13
 Motor2B = 19
 Motor2E = 26
 
+# Range of colour to detect
+lwRed = np.array([0,157,69])
+upRed = np.array([9, 255, 255])
+
 #======================== Hardware Control Functions ========================#
 def forward():
     GPIO.output(Motor1A,GPIO.HIGH)
@@ -77,9 +81,6 @@ def drawText(frame, text):
 # Function to determine whether the current input frame contains a sufficent
 # number of red pixels.
 def checkRed(frame, hsvFrame):
-    lwRed = np.array([0,157,69])
-    upRed = np.array([9, 255, 255])
-
     redMask = cv2.inRange(hsvFrame, lwRed, upRed)
     redRes = cv2.bitwise_and(frame, frame, mask = redMask)
 
